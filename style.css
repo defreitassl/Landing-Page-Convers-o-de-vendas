@@ -1,0 +1,184 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    border-bottom: 1px rgb(197, 192, 192) solid;
+    width: 100%;
+    padding: 10px 40px;
+    z-index: 1000;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-login {
+    height: 35px;
+    width: 100px;
+    border: 3px solid rgb(44, 41, 41);
+    border-radius: 5px;
+    color: rgb(44, 41, 41);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#btn-login:hover {
+    background-color: rgb(34, 45, 55); 
+    color: white; 
+    transform: scale(1.05); 
+}
+
+#btnfree {
+    background-color: rgb(42, 51, 60);
+    height: 35px;
+    width: 220px;
+    color: white;
+    font-weight: bolder;
+}
+
+main {
+    height: 100%;
+    padding-top: 60px;
+}
+
+.texts {
+    display: flex;
+    justify-content: center;
+    height: 35%;
+    border-bottom: 1px rgb(197, 192, 192) solid;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 90%; 
+    max-width: 550px; 
+    margin: 0 auto; 
+}
+
+h1 {
+    font-weight: bolder;
+    color: rgb(68, 65, 65);
+    margin-bottom: 20px; 
+}
+
+h6 {
+    color: rgb(175, 175, 175);
+    font-weight: bold;
+}
+
+.plano {
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes-plano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    margin: 5vh;
+}
+
+.btn {
+    height: 65px;
+    width: 100%;
+    max-width: 160px;
+}
+
+#btn-month {
+    background-color: rgb(42, 51, 60);
+    color: white;
+    font-weight: bolder;
+    border: 3px solid rgb(42, 51, 60);
+    border-right: none;
+}
+
+#btn-annual {
+    color: rgb(42, 51, 60);
+    font-weight: bolder;
+    border: 3px solid rgb(42, 51, 60);
+    border-left: none; 
+}
+
+#btn-annual:hover {
+    background-color: white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    gap: 20px; 
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px; 
+    border: 2px solid rgb(197, 192, 192);
+    border-radius: 8px;
+    box-sizing: border-box; 
+}
+
+.card-title {
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(68, 65, 65);
+}
+
+.card-text {
+    margin: 20px 0;
+    color: rgb(197, 192, 192);
+    padding: 20px;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid rgb(175, 175, 175);
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.price-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+h2 {
+    margin-right: 8px;
+}
+
+.action-btn {
+    background-color: rgb(42, 51, 60);
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
